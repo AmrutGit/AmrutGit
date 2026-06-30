@@ -1,16 +1,17 @@
 # Hey, I'm Amrut 👋
 
-**Agentic AI Engineer** building production multi-agent systems at **FirstCry.com**
+**Agentic AI Engineer** building production multi-agent systems at FirstCry.com.
 
-I design and ship AI agent architectures that serve real business users — from CXOs querying enterprise data in natural language to logistics systems that cut routing costs by **23.9%**.
+I design and ship AI agent architectures that serve real business users — from natural-language analytics over enterprise data to logistics systems that cut routing costs by **23.9%**.
 
 ---
 
 ### What I'm working on
 
-- 🤖 **Multi-agent data platform** on Google ADK — specialized agents for Merchandising, Marketing, Sales & Procurement, used daily by FirstCry's C-suite
-- 🚛 **Vehicle Route Optimization** — production ML system using OR-Tools + FastAPI that saved the equivalent of 2 full-time resources
-- 📊 **Enterprise ETL pipelines** — PySpark + BigQuery + Airflow, orchestrated with CI/CD
+- 🧱 **Multi-agent analytics platform** on Google ADK — specialized agents that let business teams query enterprise data in plain English, running in production daily
+- 🚚 **Vehicle route optimization** — a production ML system (OR-Tools + FastAPI) that saved the equivalent of two full-time resources
+- 🔁 **Enterprise ETL pipelines** — PySpark + BigQuery + Airflow, orchestrated with CI/CD
+- 🛠️ **[multi-agent-text-to-sql](https://github.com/AmrutGit/multi-agent-text-to-sql)** — a text-to-SQL agent built in the open: schema RAG, self-correcting SQL, and an execution-accuracy eval harness
 
 ### Tech I work with daily
 
@@ -22,14 +23,10 @@ Data           → BigQuery, PostgreSQL, MongoDB, Redshift, PySpark
 Infrastructure → Docker, Kubernetes, Airflow, AWS, GCP, Azure
 ```
 
-### Writing & Ideas
-
-<!-- Update these links as you publish -->
-- 📝 [Coming soon] *Lessons from shipping Google ADK to production*
-- 🌐 [Portfolio](https://amrut-patil.vercel.app/)
+### Writing
+- 🌐 [Portfolio & blog](https://amrut-patil.vercel.app) — posts on multi-agent systems & RAG architecture
 
 ### Let's connect
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/amrut-amble-patil-932b7b192)
-- 📧 amru5300@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/amrut-patil-ai)
+- ✉️ amru5300@gmail.com
 - 📍 Pune, India
