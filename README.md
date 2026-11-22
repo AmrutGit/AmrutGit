@@ -13,14 +13,15 @@ Software Developer I (AI / ML) at Firstcry.com, with 2.5+ years of production ex
 | Project | What it does | One real number |
 |---|---|---|
 | [multi-agent-text-to-sql](https://github.com/AmrutGit/multi-agent-text-to-sql) | Agent pipeline (schema retrieval, SQL writer, validator + self-correction, read-only execution) with a BIRD evaluation harness | **0 / 1,534** validator false rejections on BIRD dev gold SQL. Model benchmark: in progress |
+| [eu-finreg-rag](https://github.com/AmrutGit/eu-finreg-rag) | RAG over the EU AI Act and DORA with paragraph-level citations (retrieval measured; answer quality in progress) | **93%** hit@5 for the gold paragraph (1024-char chunks, 60 draft questions) |
 | [FleetMind](https://github.com/AmrutGit/FleetMind) | Imitation learning + OR-Tools for fleet routing (synthetic data) | Imitated human dispatch is **+20.4%** longer than OR-Tools optimal |
 | [forecast-lab](https://github.com/AmrutGit/forecast-lab) | Attribute-level demand forecasting: LightGBM quantiles, SHAP, drift monitoring, FastAPI + React | No headline metric published yet |
-| eu-finreg-rag | RAG over the EU AI Act and DORA | In progress |
 | text2sql-qlora | QLoRA fine-tuned model for text-to-SQL, scored with the same BIRD harness | In progress |
 
 ### Writing
 
 - [What a 1,534-question audit taught me about schema retrieval for text-to-SQL](https://amrut-patil.vercel.app/blog/bird-schema-retrieval-audit)
+- [Evaluating a RAG system over the EU AI Act and DORA](https://amrut-patil.vercel.app/blog/eu-ai-act-dora-rag-retrieval-eval)
 
 ### Links
 
