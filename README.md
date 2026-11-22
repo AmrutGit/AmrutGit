@@ -1,32 +1,29 @@
-# Hey, I'm Amrut 👋
+## Amrut Amble Patil: AI Engineer, Agentic Systems & LLM Applications
 
-**Agentic AI Engineer** building production multi-agent systems at FirstCry.com.
+Based in Pune, India · open to relocation to the Netherlands, Ireland or Germany, and to remote roles · requires visa sponsorship for EU roles · 30-day notice period.
 
-I design and ship AI agent architectures that serve real business users — from natural-language analytics over enterprise data to logistics systems that cut routing costs by **23.9%**.
+Software Developer I (AI / ML) at Firstcry.com, with 2.5+ years of production experience in Python:
 
----
+- Built a multi-agent LLM analytics platform on Google ADK, FastAPI and BigQuery, in production with business users including CXOs.
+- Reliability hardening cut unanswered requests from ~20% to under 5%.
+- Prompt caching raised the cached share of prompt tokens from ~0% to 65%.
 
-### What I'm working on
+### Projects
 
-- 🧱 **Multi-agent analytics platform** on Google ADK — specialized agents that let business teams query enterprise data in plain English, running in production daily
-- 🚚 **Vehicle route optimization** — a production ML system (OR-Tools + FastAPI) that saved the equivalent of two full-time resources
-- 🔁 **Enterprise ETL pipelines** — PySpark + BigQuery + Airflow, orchestrated with CI/CD
-- 🛠️ **[multi-agent-text-to-sql](https://github.com/AmrutGit/multi-agent-text-to-sql)** — a text-to-SQL agent built in the open: schema RAG, self-correcting SQL, and an execution-accuracy eval harness
-
-### Tech I work with daily
-
-```
-Agentic AI     → Google ADK, LangChain, RAG, Tool-Calling, Multi-Agent Orchestration
-Backend        → Python, FastAPI, Flask, Django, REST APIs
-ML/DS          → PyTorch, TensorFlow, Scikit-Learn, Time-Series, NLP
-Data           → BigQuery, PostgreSQL, MongoDB, Redshift, PySpark
-Infrastructure → Docker, Kubernetes, Airflow, AWS, GCP, Azure
-```
+| Project | What it does | One real number |
+|---|---|---|
+| [multi-agent-text-to-sql](https://github.com/AmrutGit/multi-agent-text-to-sql) | Agent pipeline (schema retrieval, SQL writer, validator + self-correction, read-only execution) with a BIRD evaluation harness | **0 / 1,534** validator false rejections on BIRD dev gold SQL. Model benchmark: in progress |
+| [FleetMind](https://github.com/AmrutGit/FleetMind) | Imitation learning + OR-Tools for fleet routing (synthetic data) | Imitated human dispatch is **+20.4%** longer than OR-Tools optimal |
+| [forecast-lab](https://github.com/AmrutGit/forecast-lab) | Attribute-level demand forecasting: LightGBM quantiles, SHAP, drift monitoring, FastAPI + React | No headline metric published yet |
+| eu-finreg-rag | RAG over the EU AI Act and DORA | In progress |
+| text2sql-qlora | QLoRA fine-tuned model for text-to-SQL, scored with the same BIRD harness | In progress |
 
 ### Writing
-- 🌐 [Portfolio & blog](https://amrut-patil.vercel.app) — posts on multi-agent systems & RAG architecture
 
-### Let's connect
-- 💼 [LinkedIn](https://www.linkedin.com/in/amrut-patil-ai)
-- ✉️ amru5300@gmail.com
-- 📍 Pune, India
+- [What a 1,534-question audit taught me about schema retrieval for text-to-SQL](https://amrut-patil.vercel.app/blog/bird-schema-retrieval-audit)
+
+### Links
+
+- Website and CV: [amrut-patil.vercel.app](https://amrut-patil.vercel.app)
+- LinkedIn: [linkedin.com/in/amrut-amble-patil-932b7b192](https://linkedin.com/in/amrut-amble-patil-932b7b192)
+- Email: on [my website](https://amrut-patil.vercel.app/about#contact)
